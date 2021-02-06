@@ -48,7 +48,7 @@ function weather() {
    city="$1"
 
    if [ -z "$city" ]; then
-      city="Antwerp"
+      city="Playa del Carmen"
    fi
 
    eval "curl http://wttr.in/${city}"
